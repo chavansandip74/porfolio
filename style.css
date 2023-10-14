@@ -521,6 +521,12 @@ footer {
         margin-top: 3vw;
         width: 26vw;
     }
+     .contact {
+        height: 40vw;
+    }
+    h3{
+        font-size: 2vw;
+    }
 }
 
 
