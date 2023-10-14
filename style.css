@@ -11,7 +11,7 @@ body {
 }
 
 nav {
-    background-color: rgb(2, 2, 2, 0.4);
+    background-color: rgb(2, 2, 2, 0.6);
     display: flex;
     position: fixed;
     top: 0;
@@ -27,6 +27,7 @@ nav ul {
 }
 
 nav ul li {
+    cursor: pointer;
     list-style: none;
     font-size: 1.5vw;
     margin: 0 2vw;
@@ -123,7 +124,7 @@ main hr {
 }
 
 .about {
-    height: 30vw;
+    height: 47vw;
 
     width: 100%;
     display: flex;
@@ -439,7 +440,6 @@ footer {
 
 }
 
-
 .icocon {
     float: left;
 
@@ -469,11 +469,28 @@ footer {
     display: none;
 }
 
-.icocon {
-    font-size: 2vw;
-}
+
 
 @media(max-width:480px) {
+
+    nav {
+        height: 8vw;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .ico {
+        float: right;
+        display: block;
+        font-size: 7vw;
+        margin-right: 6vw;
+    }
+    .iconm{
+        color: white;
+    }
+
     .project {
         display: block;
         height: 200vw;
@@ -494,7 +511,9 @@ footer {
         margin-top: 6vw;
     }
 
-
+    .first {
+        margin: 10vw 0;
+    }
 
     .pro1 button {
         font-size: 3vw;
@@ -503,6 +522,5 @@ footer {
         width: 26vw;
     }
 }
-
 
 
