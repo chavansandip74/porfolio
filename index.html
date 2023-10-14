@@ -19,11 +19,11 @@
             <div class="left">Portfolio .</div>
             <div class="right">
                 <ul>
-                    <li><a href="/">Home</li></a>
-                    <li><a href="/">About</li></a>
-                    <li><a href="/">Skills</li></a>
-                    <li><a href="/">Projects</li></a>
-                    <li><a href="/">Contact Me</li></a>
+                    <li><a href="">Home</a></li>
+                    <li onclick="about()"><a >About</a></li>
+                    <li onclick="skill()"><a >Skills</a></li>
+                    <li onclick="pro()"><a >Projects</a></li>
+                    <li onclick="contact()"><a>Contact Me</a></li>
                 </ul>
             </div>
             <div class="ico">
@@ -40,7 +40,7 @@
                 <div>and I am a passionate</div>
                 <span id="element"></span>
                 <br>
-                <button>Download Resume</button>
+                <button><a href="Resume-sandip-chavan-1.pdf" download>Download Resume</a></button>
             </div>
             <div class="rights">
                 <img src="pfimg1.png" alt="">
@@ -138,17 +138,17 @@
                 <h3>Hostel Management</h3>
                 <img src="hostel.png" alt="">
                 <br>
-                <button>Github Link</button>
+                <button ><a href="https://github.com/chavansandip74/hostelmanagement">Github Link</a></button>
             </div>
             <div class="pro1">
                 <h3>siyaram cources</h3>
                 <img src="cource.png" alt=""><br>
-                <button>Github Link</button>
+                <button><a href="https://github.com/chavansandip74/coursewebsite">Github Link</a></button>
             </div>
             <div class="pro1">
                 <h3>king cafe</h3>
                 <img src="hotel.png" alt=""><br>
-                <button>Github Link</button>
+                <button><a href="https://github.com/chavansandip74/gymwebsite">Github Link</a></button>
             </div>
         </div>
         <hr>
@@ -193,7 +193,7 @@
                         <i class="fa fa-instagram " aria-hidden="true"></i>
                     </div>
                     <div class="incon">
-                        <h3> Instagram</h3>
+                        <h3><a href="https://www.instagram.com/sandip_chavan._/">Instagram</a></h3>
 
                     </div>
                 </div>
@@ -202,7 +202,7 @@
                         <i class="fa fa-linkedin " aria-hidden="true"></i>
                     </div>
                     <div class="incon">
-                        <h3> Linkedin</h3>
+                        <h3><a href="https://www.linkedin.com/in/chavan-sandip-uddhav/"> Linkedin</a></h3>
 
                     </div>
                 </div>
@@ -211,7 +211,7 @@
                         <i class="fa fa-github " aria-hidden="true"></i>
                     </div>
                     <div class="incon">
-                        <h3> Github</h3>
+                        <h3><a href="https://github.com/chavansandip74"> Github</a></h3>
 
                     </div>
                 </div>
@@ -254,6 +254,23 @@
         }
         function upit() {
             window.scrollTo(0, 0);
+        }
+        function pro(){
+            
+            window.scrollTo(0, 2000);
+        }
+        function about(){
+            
+            window.scrollTo(0, 500);
+        }
+        function skill(){
+            
+            window.scrollTo(0, 1300);
+        }
+
+        function contact(){
+            
+            window.scrollTo(0, 2600);
         }
     </script>
 </body>
